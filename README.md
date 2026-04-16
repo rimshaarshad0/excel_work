@@ -100,4 +100,116 @@ This sheet is useful for:
 - You can add more students by dragging formulas down
 - Make sure total marks remain consistent (400)
 
+## 📊 Sales Dashboard Dataset
+
+This dataset contains structured sales data used for building interactive dashboards and performing business analysis. It provides insights into revenue and profit trends over time.
+
+## 📂 Dataset Description
+
+The data is organized in a tabular format and represents daily sales records along with key performance indicators.
+
+### 🔑 Key Columns
+
+* **Date** — Represents the sales transaction date
+* **Revenue** — Total income generated from sales
+* **Profit** — Net earnings after deducting costs
+* **Additional Fields** — May include product categories, regions, or other business-related attributes
+
+## 📈 Summary
+
+* **Total Revenue:** 69,095
+* **Total Profit:** 20,728.5
+
+## 🧮 Excel Formulas Used
+
+The following formulas are typically used in the dataset:
+
+### ➤ Total Revenue Calculation
+
+```excel
+=SUM(Revenue_Column)
+```
+
+Example:
+
+```excel
+=SUM(C2:C100)
+```
+
+### ➤ Total Profit Calculation
+
+```excel
+=SUM(Profit_Column)
+```
+
+Example:
+
+```excel
+=SUM(D2:D100)
+```
+
+### ➤ Profit Calculation (if derived)
+
+```excel
+=Revenue - (Revenue*Cost)
+```
+
+Example:
+
+```excel
+=C2 - (C2*70%)
+```
+
+### ➤ Running Total (Cumulative Revenue)
+
+```excel
+=(C2*C100)
+```
+
+Example:
+
+```excel
+=(Unit sold * Price)
+```
+
+### ➤ Average Revenue
+
+```excel
+=AVERAGE(C2:C100)
+```
+
+## 🎯 Purpose
+
+This dataset is intended for:
+
+* Sales performance tracking
+* Dashboard creation
+* Trend analysis over time
+* Business decision support
+
+## ⚙️ Usage
+
+This dataset can be used with various tools, such as:
+
+* **Microsoft Excel** for analysis
+* **Power BI / Tableau** for dashboards
+* **Python (Pandas)** for data processing
+
+## 📝 Data Notes
+
+* Clean empty or unnamed columns before analysis
+* Ensure correct date formatting
+* Verify totals for accuracy
+
+## 👨‍💻 Applications
+
+* Sales dashboards
+* Business reports
+* Data visualization projects
+
+## 📄 License
+
+This dataset is intended for educational and analytical use.
+
+---
 
