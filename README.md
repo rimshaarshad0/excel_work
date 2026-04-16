@@ -100,6 +100,9 @@ This sheet is useful for:
 - You can add more students by dragging formulas down
 - Make sure total marks remain consistent (400)
 
+---
+---
+
 ## 📊 Sales Dashboard Dataset
 
 This dataset contains structured sales data used for building interactive dashboards and performing business analysis. It provides insights into revenue and profit trends over time.
