@@ -252,7 +252,27 @@ The dataset contains transaction-level records of customers including deposits, 
 
 ### ➤ Balance Calculation
 
-=Previous_Balance + Deposit - Withdrawal
+```excel
+=Deposit - Withdrawal
+```
+
+### ➤ Total Deposits
+
+```excel
+=SUM(H5:H34)
+```
+
+### ➤ Total Withdrawals
+
+```excel
+=SUM(I5:I34)
+```
+
+### ➤ Cheque No
+
+```excel
+=IF(V10="Cheque","CHQ"&TEXT(1000+COUNTIF($V$10:V10,"Cheque"),"0"),"N/A")
+```
 
 ---
 
