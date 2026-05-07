@@ -216,3 +216,80 @@ This dataset is intended for educational and analytical use.
 
 ---
 
+## 🧾 Cashier Dataset (Excel Sheet)
+
+This Excel dataset is designed for managing daily cashier transactions in a bank or financial system. It helps in tracking deposits, withdrawals, balances, and payment records in a structured format.
+
+---
+
+## 📂 Dataset Description
+
+The dataset contains transaction-level records of customers including deposits, withdrawals, and payment details. It is useful for maintaining financial accuracy and audit tracking.
+
+---
+
+## 🔑 Key Columns
+
+- **Date** — Transaction date  
+- **Receipt No** — Unique receipt number for each transaction  
+- **Transaction ID** — System-generated unique transaction identifier  
+- **Customer Name** — Name of the account holder  
+- **Account Number** — Bank account number of customer  
+- **Deposit Amount** — Amount deposited into account  
+- **Withdrawal Amount** — Amount withdrawn from account  
+- **Balance** — Updated account balance after transaction  
+- **Payment Method** — Cash, Cheque, Online Transfer, etc.  
+- **Cheque No** — Cheque number (if applicable)  
+- **Description / Remarks** — Additional transaction details  
+- **Cashier Name** — Name of the cashier handling transaction  
+- **Branch Name** — Bank branch location  
+- **Status (Paid/Pending)** — Transaction completion status  
+- **Signature / Approval** — Authorization confirmation  
+
+---
+
+## 🧮 Excel Formulas Used
+
+### ➤ Balance Calculation
+
+=Previous_Balance + Deposit - Withdrawal
+
+---
+
+## 🎯 Purpose
+
+This dataset is useful for:
+
+Bank cashier record management
+Financial transaction tracking
+Audit and compliance reporting
+Excel practice for accounting students
+Dashboard creation for banking systems
+
+---
+
+## ⚙️ Usage
+
+This dataset can be used in:
+
+Microsoft Excel (daily transaction tracking)
+Power BI / Tableau (financial dashboards)
+Python (Pandas) for data analysis
+
+---
+
+## 📝 Data Notes
+Ensure Balance is updated after every transaction
+Keep Transaction ID unique for each record
+Validate Cheque numbers for cheque payments
+Maintain proper date formatting for reporting
+
+---
+
+## 👨‍💻 Applications
+Banking systems
+Cashier management software
+Financial reporting dashboards
+Accounting practice projects
+
+---
